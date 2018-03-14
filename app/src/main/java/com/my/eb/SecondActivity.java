@@ -26,6 +26,9 @@ public class SecondActivity extends Activity{
             case R.id.second_bt:
                 EventBus.getDefault().post(new MessageEvent("事件发布者发布事件"));
 
+
+
+
                 finish();
         }
     }
